@@ -1,0 +1,19 @@
+{
+  "name": "npm-version-semver-helper",
+  "version": "0.1.1",
+  "description": "",
+  "main": "release.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goudla/npm-version-semver-helper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Goudla/npm-version-semver-helper/issues"
+  },
+  "homepage": "https://github.com/Goudla/npm-version-semver-helper#readme"
+}
