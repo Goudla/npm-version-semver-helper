@@ -2,15 +2,20 @@
   "name": "npm-version-semver-helper",
   "version": "1.0.0",
   "description": "",
+  "preferGlobal": true,
   "main": "release.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npm-version-semver-helper": "release.sh",
+    "nvsh": "release.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Goudla/npm-version-semver-helper.git"
   },
-  "author": "",
+  "author": "Douglas Bamber",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Goudla/npm-version-semver-helper/issues"
